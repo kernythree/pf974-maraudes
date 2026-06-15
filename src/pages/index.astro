@@ -1,0 +1,28 @@
+---
+import HomeMenu from '../components/HomeMenu.astro';
+import { menuItems, site } from '../config/site';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/home.css';
+---
+
+<BaseLayout showHeader={false}>
+  <main class="home">
+    <header class="site-heading">
+      <h1>{site.home.title}</h1>
+      <p>{site.home.intro}</p>
+    </header>
+
+    <HomeMenu items={menuItems} />
+
+    <figure class="home-cover">
+      <img
+        src={site.home.cover.src}
+        alt={site.home.cover.alt}
+        width={site.home.cover.width}
+        height={site.home.cover.height}
+        decoding="async"
+        fetchpriority="high"
+      />
+    </figure>
+  </main>
+</BaseLayout>
