@@ -1,0 +1,1 @@
+*🤍 Les bénévoles du Planning Familial sont là pour proposer une écoute, faire de la prévention sur les risques liés à la sexualité, distribuer des préservatifs, partager des informations sur les IST et le VIH, promouvoir le dépistage régulier et proposer des tests de dépistage sur site.*

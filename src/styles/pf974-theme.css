@@ -1,0 +1,13 @@
+/* PF974 color palette and main fonts */
+:root {
+  /* Colors */
+  --color-text: #00304B;
+  --color-background: #FFFFFF;
+  --color-muted:  #EBEEF0;
+  --color-surface: #11BFBF;
+  --color-accent: #D9437A;
+
+  /* Fonts */
+  --font-heading: "Nunito Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}

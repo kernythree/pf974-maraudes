@@ -1,14 +1,14 @@
 export const site = {
-  name: 'BLACKFISH TEMPLATE',
-  title: "BLACKFISH TEMPLATE",
-  description: 'template site blackfish',
+  name: 'Maraudes Planning Familial 974',
+  title: "Maraudes Planning Familial 974",
+  description: 'Site Maraudes Planning Familial 974',
   lang: 'fr',
-  email: 'blackfish.creation@proton.me',
-  logo: '/logo/blackfish_creation_base_2.png',
+  email: 'mon.email@ici.me',
+  logo: '/logo/logo_pf974_white.jpg',
   home: {
-    title: "BLACKFISH TEMPLATE",
+    title: "PAPILLONS DE NUIT",
     intro:
-      "Texte de sous-titre ici !",
+      "planning des maraudes et infos utiles !",
     cover: {
       src: '/cover/home_cover_1.jpg',
       alt: "Photographie de couverture",
@@ -20,5 +20,4 @@ export const site = {
 
 export const menuItems = [
   { label: 'Page 1', href: '/first-page/', description: 'Page generique' },
-  { label: 'Article', href: '/articles/example/', description: 'Page article generique' },
 ];

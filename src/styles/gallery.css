@@ -86,7 +86,6 @@
   display: block;
   padding-top: 0.45rem;
   color: var(--color-muted);
-  font-family: var(--font-legend);
   font-size: 0.85rem;
   line-height: 1.4;
 }
@@ -166,7 +165,6 @@
 .lightbox figcaption {
   margin-top: 0.75rem;
   color: var(--color-muted);
-  font-family: var(--font-legend);
   line-height: 1.4;
 }
 

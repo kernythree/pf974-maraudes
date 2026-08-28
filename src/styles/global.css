@@ -1,10 +1,6 @@
 /* Tokens */
 :root {
-  --color-text: #111111;
-  --color-background: #ffffff;
-  --color-muted: #555555;
-  --color-surface: #f5f5f5;
-  --page-width: 1440px;
+  --page-width: 600px;
   --page-gutter: 90vw;
 
   background: var(--color-background);
@@ -48,14 +44,23 @@ button {
   font: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+}
+
 h1 {
   min-width: 0;
   margin: 0;
-  font-family: var(--font-title);
   font-size: 2rem;
-  font-weight: 400;
   line-height: 0.95;
   letter-spacing: 0;
+  color: var(--color-surface);
 }
 
 /* Accessibility */
@@ -90,7 +95,6 @@ h1 {
   max-width: 42rem;
   margin: 1rem 0 0;
   color: var(--color-muted);
-  font-family: var(--font-subtitle);
   line-height: 1.6;
 }
 
@@ -103,12 +107,12 @@ h1 {
 
 @media (min-width: 520px) {
   h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
 
 @media (min-width: 840px) {
   h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
   }
 }

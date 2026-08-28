@@ -3,16 +3,17 @@ import HomeMenu from '../components/HomeMenu.astro';
 import { menuItems, site } from '../config/site';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import '../styles/home.css';
+import { Content as AccueilPresentation } from './acceuil-presentation.md';
+import { Content as AccueilInformation } from './acceuil-information.md';
+import { Content as AccueilCalendrier } from './acceuil-calendrier.md';
 ---
 
 <BaseLayout showHeader={false}>
   <main class="home">
     <header class="site-heading">
       <h1>{site.home.title}</h1>
-      <p>{site.home.intro}</p>
+      <!-- <h3>{site.home.intro}</h3> -->
     </header>
-
-    <HomeMenu items={menuItems} />
 
     <figure class="home-cover">
       <img
@@ -24,5 +25,21 @@ import '../styles/home.css';
         fetchpriority="high"
       />
     </figure>
+
+    <section class="home-content-block home-content-block--information">
+      <AccueilCalendrier />
+    </section>
+
+    <section class="home-content-block home-content-block--presentation">
+      <AccueilInformation />
+    </section>
+
+    <section class="home-content-block home-content-block--information">
+      <AccueilPresentation />
+    </section>
+
+
+    <!-- <HomeMenu items={menuItems} /> -->
+
   </main>
 </BaseLayout>
