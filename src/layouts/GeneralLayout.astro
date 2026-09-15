@@ -1,6 +1,6 @@
 ---
 import PageHeader from '../components/PageHeader.astro';
-import { site } from '../config/site';
+import { site, withBase } from '../config/site';
 import '../styles/general.css';
 import BaseLayout from './BaseLayout.astro';
 
@@ -10,7 +10,7 @@ const {
   description = '',
   image,
   imageAlt = '',
-  backHref = '/',
+  backHref = withBase('/'),
   backLabel = 'Retour',
 } = frontmatter;
 

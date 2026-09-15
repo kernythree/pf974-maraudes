@@ -1,11 +1,10 @@
 ---
-import { site } from '../config/site';
 import HomeMenu from '../components/HomeMenu.astro';
-import { menuItems, site } from '../config/site';
+import { menuItems, site, withBase } from '../config/site';
 import '../styles/home.css';
 
 const {
-  homeHref = '/',
+  homeHref = withBase('/'),
   logoSrc = site.logo,
   siteName = site.name,
 } = Astro.props;
