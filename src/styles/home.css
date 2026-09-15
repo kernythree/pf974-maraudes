@@ -54,7 +54,7 @@
   margin: 0rem;
   overflow: hidden;
   border: 1px solid var(--color-background);
-  background: var(--color-surface);
+  background: var(--color-background);
 }
 
 .home-cover img {

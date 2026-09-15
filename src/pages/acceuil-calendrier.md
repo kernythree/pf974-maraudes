@@ -2,15 +2,21 @@
 
 ---
 
-Le Vendredi 00/00/2026 à Étang-Salé
+▶ Le Vendredi 25/09/2026 (*)
+
+au spot du Gouffre à Étang-Salé à partir de 18h
 
 ---
 
-Le Vendredi 00/00/2026 à Étang-Salé (*)
+▶ Le Vendredi 30/10/2026
+
+au spot du Gouffre à Étang-Salé à partir de 18h30
 
 ---
 
-Le Vendredi 00/00/2026 à Étang-Salé 
+▶ Le Vendredi 27/10/2026
+
+au spot du Gouffre à Étang-Salé à partir de 18h30
 
 ---
 
