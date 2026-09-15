@@ -1,5 +1,5 @@
 export const withBase = (path: string) =>
-  `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
+  `${import.meta.env.BASE_URL.replace(/\/?$/, '/')}${path.replace(/^\/+/, '')}`;
 
 export const site = {
   name: 'Maraudes Planning Familial 974',
